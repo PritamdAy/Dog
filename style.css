@@ -1,0 +1,1189 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Maven+Pro:wght@700&family=Monoton&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.parent1{
+    background-color: #fcc302;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.first h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.first p{
+    font-size: 27px;
+    color:  white;
+    line-height: 35px;
+}
+.first button{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px dotted white;
+    background-color: transparent;
+}
+.first button:hover{
+    background-color: #00bec9;
+    transition: 0.8s;
+}
+.dog-pic img{
+    padding-left: 23%;
+}
+.first2{
+    padding-top: 11%;
+}
+
+.parent2{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #daac00;
+    z-index: 2;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.navbar .menu-list{
+    display: inline-flex;
+    margin-bottom: 0;
+    /* padding-left: 30%; */
+}
+.menu-list li a{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 15px;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.search{
+    display: flex;
+}
+.icon{
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+.icon.close-btn{
+    position: absolute;
+    top:14px;
+    right: 6%;
+    z-index: 5;
+}
+.label input{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fcc302;
+    border: 1px solid #fcc302;
+}
+.search-icon button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #00bec9;
+    border: 1px solid #00bec9;
+    color: white;
+}
+
+.parent3{
+    padding: 5% 0;
+}
+.lover h2{
+    font-size: 50px;
+    color: #313243;
+    padding-bottom: 4%;
+}
+.lover h5{
+    font-size: 29px;
+    color: #313243;
+    padding-bottom: 4%;
+}
+.our-btn button{
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #fcc302;
+    color: white;
+    border: 1px solid #fcc302;
+}
+.love-dog{
+    position: relative;
+}
+.love-dog-sqare img{
+    position: absolute;
+    top: 65%;
+    left: -3%;
+    z-index: -1;
+}
+.love-dog-img img{
+    padding-left: 5%;
+    object-fit: cover;
+}
+.lover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.parent4{
+    background-color: #fcc302;
+    text-align: center;
+    padding: 5% 0;
+}
+.title{
+    padding: 5% 0;
+}
+.title h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.title p{
+    font-size: 33px;
+    color: white;
+}
+.title-dog-content{
+    padding-top: 13%;
+}
+.title-dog-content h1{
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+.title-dog-content p{
+    font-size: 25px;
+    color: white;
+    line-height: 28px;
+}
+.title-dog-img{
+    overflow: hidden;
+}
+.title-dog-img img{
+    object-fit: cover;
+    border: 5px solid white;
+    transition: 0.8s;
+}
+.title-dog-img img:hover{
+    transform: scale(1.2);
+}
+
+.parent5{
+    padding: 10% 0;
+}
+.animal-dog{
+    position: relative;
+}
+.care-icon img{
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    z-index: -1;
+}
+.animal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: right;
+}
+.animal-content h1{
+    font-size: 49px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.animal-content p{
+    font-size: 29px;
+    line-height: 35px;
+    padding-bottom: 5%;
+}
+
+.parent6{
+    background-color: #fcc302;
+    text-align: center;
+    padding: 5% 0;
+}
+.here{
+    padding-bottom: 5%;
+}
+.here h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.here p{
+    font-size: 33px;
+    color: white;
+    line-height: 40px;
+}
+.here-dog-content p{
+    font-size: 41px;
+    font-weight: bold;
+    color: white;
+}
+.buy button{
+    font-weight: 25px;
+    padding: 5px 50px;
+    border-radius: 20px;
+    background-color: #00bec9;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.here-dog-img img{
+    border: 5px solid white;
+    transition: 0.8s;
+}
+.here-dog-img{
+    overflow: hidden;
+}
+.here-dog-img img:hover{
+    transform: scale(1.2);
+}
+
+.parent7{
+    text-align: center;
+    padding: 5% 0;
+}
+.team{
+    padding-bottom: 5%;
+}
+.team h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #313243;
+}
+.team p{
+    font-size: 33px;
+    line-height: 40px;
+    color: #313243; 
+}
+.team-ul ul{
+    display: flex;
+    justify-content: center;
+}
+.team-ul ul li a{
+    margin: 0 7px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: #fcc302;
+    color: white;
+}
+.team-img-content h2{
+    font-size: 29px;
+    font-weight: bold;
+    color: #313243;
+}
+.team-img-content p{
+    font-size: 25px;
+    color: #313243;
+}
+
+.parent8{
+    position: relative;
+    text-align: center;
+}
+.team-img img{
+    border: 5px solid wheat;
+    transition: 0.8s;
+}
+.team-img{
+    overflow: hidden;
+}
+.team-img img:hover{
+    transform: scale(1.2);
+}
+.happy-img img{
+    position: absolute;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+.happy-img-shape img{
+    position: relative;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+.happy-full{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+.happy-icon-content h2{
+    font-size: 41px;
+    font-weight: bold;
+    color: white;
+}
+.happy-icon-content p{
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+.happy-icon img{
+    padding-bottom: 10%;
+}
+
+.parent9{
+    text-align: center;
+    padding: 10% 0;
+}
+.recent{
+    padding-bottom: 5%;
+}
+.recent h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #313243;
+}
+.recent p{
+    font-size: 33px;
+    line-height: 40px;
+    color: #313243;
+}
+.recent-img-content{
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    width: 88%;
+    margin-left: 6%;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+.recent-img-content h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #313243;
+}
+.recent-img-content p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00bec9;
+    padding-top: 5%;
+}
+.recent-img-content span{
+    font-size: 16px;
+    color: #313243;
+}
+
+.parent10{
+    background-color: #343434;
+    padding: 10% 0;
+}
+.about h2{
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+.history ul{
+    padding-left: 0;
+}
+.history ul li a{
+    font-size: 25px;
+    color: white;
+}
+.title-lorem h2{
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+.title-lorem p{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 5%;
+}
+.twter input{
+    background-color: #fcc302;
+    padding: 10px 30px;
+    border: none;
+}
+.twter button{
+    padding: 10px 30px;
+    background-color: #00bec9;
+    color: white;
+    border: none;
+}
+.twiter-icon ul{
+    display: flex;
+    padding-top: 7%;
+    justify-content: flex-end;
+}
+.twiter-icon ul li a{
+    border: 1px solid;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #313243;
+    border: none;
+}
+.title-lorem{
+    text-align: end;
+}
+@media(max-width:1224px){
+    .first h1{
+        font-size: 59px;
+    }
+    .first p{
+        font-size: 27px;
+    }
+    .care-icon img{
+        right: 0;
+    }
+    .recent-img-content{
+        width: 100%;
+        margin-left: 1%;
+    }
+}
+@media(max-width:1024px){
+    .recent-doc-image img{
+        width: 100%;
+    }
+    .recent-img-content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .first h1 {
+        font-size: 50px;
+    }
+    .first p {
+        font-size: 23px;
+    }
+    .lover h2{
+        font-size: 47px;
+    }
+    .lover h5{
+        font-size: 26px;
+    }
+    .parent3 {
+        padding: 10% 0;
+    }
+    .title-dog-content p{
+        font-size: 24px;
+    }
+    .title-dog-img img{
+        width: 100%;
+    }
+    .animal-content h1{
+        font-size: 45px;
+    }
+    .animal-content p{
+        font-size: 27px;
+    }
+    .care-dog img{
+        width: 100%;
+    }
+    .care-icon img{
+        display: none;
+    }
+    .here-dog-img img{
+        width: 100%;
+    }
+    .team-img img{
+        width: 100%;
+    }
+    .twter input{
+        padding: 10px 10px;
+    }
+}
+@media(max-width:992px){
+    .icon{
+        display: block;
+        color: white;
+    }
+    .navbar .menu-list{
+        position: fixed;
+        background-color: #daac00;
+        top: 6%;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        max-width: 320px;
+        display: block;
+        padding: 50px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .menu-list li a:hover{
+        color:rgb(209, 15, 147);
+    }
+    .navbar .menu-list.active{
+        left:0;
+    }
+    .navbar .menu-list li{
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a{
+        font-size: 22px;
+    }
+    .search{
+        display: none;
+    }
+    .content{
+        justify-content: space-between;
+    }
+    .first h1 {
+        font-size: 50px;
+    }
+    .first p{
+        font-size: 23px;
+    }
+    .parent8{
+        display: none;
+    }
+}
+@media(max-width:912px){
+    .navbar .menu-list{
+        top: 5%;
+    }
+    .first{
+        text-align: center;
+    }
+    .parent3{
+        text-align: center;
+    }
+    .lover{
+        padding: 20px 0;
+    }
+    .title-dog-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.animal-content{
+    align-items: center;
+    text-align: center;
+}
+.recent-img-content{
+    text-align: center;
+    padding-left: 0;
+}
+.recent-img-content h3 {
+    font-size: 36px;
+}
+.recent-img-content p {
+    font-size: 33px;
+}
+.recent-img-content span {
+    font-size: 25px;
+}
+.parent10{
+    text-align: center;
+}
+.title-lorem{
+    text-align: center;
+}
+.twiter-icon ul{
+    justify-content: center;
+}
+.about h2 {
+    font-size: 64px;
+}
+.history ul li a {
+    font-size: 34px;
+}
+}
+@media(max-width:800px){
+    .navbar .menu-list{
+        top: 6%;
+    }
+    .parent1{
+        text-align: center;
+    }
+    .dog-pic img{
+        padding-left: 0;
+        padding-top: 2%;
+    }
+    .parent3{
+        text-align: center;
+    }
+    .love-dog-sqare img{
+        display: none;
+    }
+    .love-dog-img img{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 5%;
+    }
+    .title-dog-content {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    .title-dog-content h1{
+        font-size: 66px;
+    }
+    .title-dog-content p {
+        font-size: 31px;
+    }
+    .animal-content{
+        text-align: center;
+    }
+    .here-dog-content{
+        padding: 6% 0;
+    }
+    .here-dog-content p{
+        font-size: 66px;
+    }
+    .buy button{
+        font-size: 28px;
+    }
+    .team-img-content{
+        padding: 6% 0;
+    }
+    .team-img-content h2{
+        font-size: 50px;
+    }
+    .team-img-content p{
+        font-size: 46px;
+    }
+    .team-ul ul li a{
+        font-size: 40px;
+    }
+    .parent8{
+        display: none;
+    }
+    .recent-img-content{
+        text-align: center;
+        padding-left: 0;
+    }
+    .recent-img{
+        padding: 5% 0;
+    }
+    .recent-img-content h3{
+        font-size: 47px;
+    }
+    .recent-img-content p{
+        font-size: 32px;
+    }
+    .recent-img-content span{
+        font-size: 25px;
+    }
+    .parent10{
+        text-align: center;
+    }
+    .title-lorem{
+        text-align: center;
+    }
+    .twiter-icon ul{
+        justify-content: center;
+    }
+    .about h2{
+        font-size: 66px;
+    }
+    .history ul li a{
+        font-size: 40px;
+    }
+    .title-lorem h2{
+        font-size: 66px;
+    }
+    .title-lorem p{
+        font-size: 33px;
+    }
+    .twter input {
+        padding: 10px 71px;
+    }
+    .twiter-icon ul li a{
+        font-size: 40px;
+    }
+    .first h1{
+        padding-top: 5%;
+    }
+    .title p {
+    font-size: 26px;
+}
+.here p {
+    font-size: 26px;
+}
+.team h1 {
+    font-size: 60px;
+}
+.team p {
+    font-size: 26px;
+}
+.recent p {
+    font-size: 26px;
+}
+
+}
+@media(max-width:640px){
+    .first{
+        padding-top: 5%;
+    }
+    .title p{
+        font-size: 26px;
+    }
+    .here p{
+        font-size: 26px;
+    }
+    .team h1{
+        font-size: 63px;
+    }
+    .team p{
+        font-size: 26px;
+    }
+    .recent p{
+        font-size: 26px;
+    }
+    .recent-img-content h3 {
+        font-size: 48px;
+    }
+    .recent-img-content{
+        padding-left: 0;
+    }
+}
+@media(max-width:480px){
+    .first h1 {
+        font-size: 40px;
+    }
+    .first p {
+        font-size: 18px;
+    }
+    .lover h2 {
+        font-size: 40px;
+    }
+    .lover h5 {
+        font-size: 23px;
+    }
+    .title h1{
+        font-size: 65px;
+    }
+    .title p {
+        font-size: 23px;
+    }
+    .title-dog-content h1 {
+        font-size: 50px;
+    }
+    .title-dog-content p {
+        font-size: 26px;
+    }
+    .here h1{
+        font-size: 65px;
+    }
+    .here p {
+        font-size: 21px;
+    }
+    .here-dog-content p {
+        font-size: 50px;
+    }
+    .buy button {
+        font-size: 21px;
+    }
+    .team h1 {
+        font-size: 50px;
+    }
+    .team p {
+        font-size: 21px;
+    }
+    .team-img-content h2 {
+        font-size: 45px;
+    }
+    .team-img-content p {
+        font-size: 40px;
+    }
+    .team-ul ul li a {
+        font-size: 30px;
+    }
+    .team-ul ul{
+        padding-left: 0;
+    }
+    .recent h1{
+        font-size: 65px;
+    }
+    .recent p {
+        font-size: 21px;
+    }
+    .recent-img-content h3 {
+        font-size: 40px;
+    }
+    .about h2 {
+        font-size: 55px;
+    }
+    .history ul li a {
+        font-size: 35px;
+    }
+    .title-lorem h2 {
+        font-size: 55px;
+    }
+    .title-lorem p {
+        font-size: 23px;
+    }
+}
+@media(max-width:420px){
+    .first {
+        padding-top: 10%;
+    }
+    .first button {
+        font-size: 15px;
+    }
+    .lover h2 {
+        font-size: 35px;
+    }
+    .lover h5 {
+        font-size: 20px;
+    }
+    .title h1 {
+        font-size: 55px;
+    }
+    .title p {
+        font-size: 18px;
+    }
+    .title-dog-content h1 {
+        font-size: 44px;
+    }
+    .animal-content h1 {
+        font-size: 35px;
+    }
+    .animal-content p {
+        font-size: 22px;
+    }
+    .here h1 {
+        font-size: 55px;
+    }
+    .here p {
+        font-size: 18px;
+    }
+    .team h1 {
+        font-size: 43px;
+    }
+    .team p {
+        font-size: 18px;
+    }
+    .team-img-content h2 {
+        font-size: 40px;
+    }
+    .team-img-content p {
+        font-size: 35px;
+    }
+    .team-ul ul li a {
+        font-size: 25px;
+    }
+    .recent h1 {
+        font-size: 55px;
+    }
+    .recent p {
+        font-size: 18px;
+    }
+    .recent-img-content h3 {
+        font-size: 35px;
+    }
+    .recent-img-content p {
+        font-size: 27px;
+    }
+    .recent-img-content span {
+        font-size: 21px;
+    }
+    .about h2 {
+        font-size: 50px;
+    }
+    .history ul li a {
+        font-size: 30px;
+    }
+    .title-lorem h2 {
+        font-size: 50px;
+    }
+    .title-lorem p {
+        font-size: 20px;
+    }
+    .twter input {
+        padding: 10px 45px;
+    }
+    .twiter-icon ul li a {
+        font-size: 35px;
+    }
+    .navbar .menu-list {
+    top: 9%;
+}
+}
+@media(max-width:384px){
+    .navbar .menu-list {
+    top: 11%;
+}
+    .first h1 {
+        font-size: 37px;
+    }
+    .first p {
+        font-size: 16px;
+    }
+    .first button {
+        font-size: 12px;
+    }
+    .title h1 {
+        font-size: 50px;
+    }
+    .title p {
+        font-size: 18px;
+    }
+    .title-dog-content h1 {
+        font-size: 40px;
+    }
+    .title-dog-content p {
+        font-size: 22px;
+    }
+    .animal-content h1 {
+        font-size: 32px;
+    }
+    .animal-content p {
+        font-size: 20px;
+    }
+    .here h1 {
+        font-size: 50px;
+    }
+    .here p {
+        font-size: 18px;
+    }
+    .here-dog-content p {
+        font-size: 45px;
+    }
+    .buy button {
+        font-size: 18px;
+    }
+    .team h1 {
+        font-size: 38px;
+    }
+    .team p {
+        font-size: 17px;
+    }
+    .team-img-content h2 {
+        font-size: 35px;
+    }
+    .team-img-content p {
+        font-size: 30px;
+    }
+    .team-ul ul li a {
+        font-size: 20px;
+    }
+    .recent h1 {
+        font-size: 50px;
+    }
+    .recent p {
+        font-size: 17px;
+    }
+    .recent-img-content h3 {
+        font-size: 30px;
+    }
+    .recent-img-content p {
+        font-size: 23px;
+    }
+    .recent-img-content span {
+        font-size: 19px;
+    }
+    .about h2 {
+        font-size: 45px;
+    }
+    .history ul li a {
+        font-size: 25px;
+    }
+    .title-lorem h2 {
+        font-size: 45px;
+    }
+    .twiter-icon ul li a {
+        font-size: 30px;
+    }
+}
+@media(max-width:360px){
+    .navbar .menu-list {
+    top: 11%;
+}
+    .first h1 {
+        font-size: 34px;
+    }
+    .first p {
+        font-size: 14px;
+    }
+    .lover h2 {
+        font-size: 30px;
+    }
+    .lover h5 {
+        font-size: 17px;
+    }
+    .our-btn button {
+        font-size: 18px;
+    }
+    .title h1 {
+        font-size: 45px;
+    } 
+    title p {
+        font-size: 15px;
+    }
+    .title-dog-content h1 {
+        font-size: 35px;
+    }
+    .title-dog-content p {
+        font-size: 20px;
+    }
+    .animal-content h1 {
+        font-size: 30px;
+    }
+    .animal-content p {
+        font-size: 17px;
+    }
+    .here h1 {
+        font-size: 45px;
+    }
+    .here p {
+        font-size: 15px;
+    }
+    .team h1 {
+        font-size: 35px;
+    }
+    .team p {
+        font-size: 15px;
+    }
+    .team-img-content h2 {
+        font-size: 30px;
+    }
+    .team-img-content p {
+        font-size: 25px;
+    }
+    .team-ul ul li a {
+        font-size: 17px;
+    }
+    .recent h1 {
+        font-size: 45px;
+    }
+    .recent p {
+        font-size: 15px;
+    }
+    .recent-img-content h3 {
+        font-size: 25px;
+    }
+    .recent-img-content p {
+        font-size: 20px;
+    }
+    .recent-img-content span {
+        font-size: 17px;
+    }
+    .about h2 {
+        font-size: 40px;
+    }
+    .history ul li a {
+        font-size: 23px;
+    }
+    .title-lorem h2 {
+        font-size: 40px;
+    }
+    .title-lorem p {
+        font-size: 17px;
+    }
+    .twter input {
+        padding: 10px 20px;
+    }
+    .twiter-icon ul li a {
+        font-size: 25px;
+    }
+    .twiter-icon ul{
+        padding-left: 0;
+    }
+    .title p {
+    font-size: 16px;
+}
+}
+@media(max-width:353px){
+    .navbar .menu-list {
+    top: 9%;
+}
+    .first h1 {
+        font-size: 30px;
+    }
+    .title h1 {
+        font-size: 40px;
+    }
+    .title p {
+        font-size: 15px;
+    }
+}
+@media(max-width:320px){
+    .navbar .menu-list {
+    top: 15%;
+}
+    .first {
+        padding-top: 15%;
+    }
+    .first h1 {
+        font-size: 27px;
+    }
+    .first p {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .lover h2 {
+        font-size: 25px;
+    }
+    .lover h5 {
+        font-size: 15px;
+    }
+    .our-btn button {
+        font-size: 15px;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .title p {
+        font-size: 14px;
+    }
+    .title-dog-content h1 {
+        font-size: 30px;
+    }
+    .title-dog-content p {
+        font-size: 18px;
+    }
+    .animal-content h1 {
+        font-size: 25px;
+    }
+    .here h1 {
+        font-size: 40px;
+    }
+    .here p {
+        font-size: 14px;
+    }   
+    .here-dog-content p {
+        font-size: 40px;
+    }
+    .buy button {
+        font-size: 16px;
+    }
+    .team h1 {
+        font-size: 30px;
+    }
+    .team p {
+        font-size: 14px;
+    }
+    .team-img-content h2 {
+        font-size: 28px;
+    }
+    .recent h1 {
+        font-size: 40px;
+    }
+    .recent p {
+        font-size: 14px;
+    }
+    .twter input {
+        padding: 10px 14px;
+    }
+}
